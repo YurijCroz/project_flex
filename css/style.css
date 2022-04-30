@@ -13,7 +13,7 @@ body {
     background-color: gainsboro;
 }
 
-.container, .content, .footer {
+.container, .content, .footer, .border130{
     background-color: white;
     margin: 0 auto;
 }
@@ -52,7 +52,7 @@ body {
 }
 
 .inner-menu a:active {
-    color: #fa4a0c;
+    color: var(--second-color);
 }
 
 .btnContainer {
@@ -76,7 +76,7 @@ button {
 }
 
 .btn1{
-    background-color: #fa4a0c;
+    background-color: var(--second-color);
     border: none;
     margin-right: 35px;
 }
@@ -91,7 +91,7 @@ button {
     background-repeat: no-repeat;
     /* background-size: cover; */
     background-position: center;
-    color: white;
+    color: var(--primary-color);
     text-align: center;
     height: 619px;
     padding: 80px 320px 0px;
@@ -142,6 +142,7 @@ button {
     letter-spacing: 0.1px;
     text-align: center;
     padding-top: 56px;
+    padding-bottom: 16px;
 }
 
 .mobile {
@@ -168,7 +169,7 @@ button {
     font-size: 24px;
     line-height: 36px;
     letter-spacing: 0.1px;
-    color: #FA4A0C;
+    color: var(--second-color);
 }
 
 .mobile-info h2 {
@@ -191,12 +192,17 @@ button {
     color: #737373;
 }
 
+.border130 {
+    width: 1440px;
+    height: 130px;
+}
+
 .ordNow {
     background-image: url('../images/Rectangle47.png');
     background-repeat: no-repeat;
     /* background-size: cover; */
     background-position: center;
-    color: white;
+    color: var(--primary-color);
     text-align: center;
     height: 509px;
     display: flex;
